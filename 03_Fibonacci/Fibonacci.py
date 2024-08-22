@@ -5,8 +5,7 @@ La serie Fibonacci se compone por una sucesión de números en la que el siguien
 """
 def bibonacci():
     fibo = 0
-    for index in range(1,51):
-        print(str(index) + " " + str(fibo))
+    
 
 #Function call
 bibonacci()
