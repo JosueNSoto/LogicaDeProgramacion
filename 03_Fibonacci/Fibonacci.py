@@ -3,7 +3,7 @@ Enunciado: Escribe un programa que imprima los 50 primeros números de la sucesi
 La serie Fibonacci se compone por una sucesión de números en la que el siguiente siempre es la suma de los dos anteriores.
 0, 1, 1, 2, 3, 5, 8, 13...
 """
-def bibonacci():
+def fibonacci():
     num1 = 0
     num2 = 1
     fibo = 0
@@ -14,4 +14,4 @@ def bibonacci():
         num2 = fibo
 
 #Function call
-bibonacci()
+fibonacci()
