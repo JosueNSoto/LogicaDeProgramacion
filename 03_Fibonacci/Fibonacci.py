@@ -4,9 +4,14 @@ La serie Fibonacci se compone por una sucesión de números en la que el siguien
 0, 1, 1, 2, 3, 5, 8, 13...
 """
 def bibonacci():
+    num1 = 0
+    num2 = 1
     fibo = 0
     for index in range(1,51):
-        print(str(index) + " " + str(fibo))
+        print(str(index) + " " + str(num1))
+        fibo = num1 + num2
+        num1 = num2
+        num2 = fibo
 
 #Function call
 bibonacci()
