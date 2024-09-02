@@ -16,16 +16,14 @@ def areaPolygon():
         
         base = int(input("Ingresa el valor de la base: "))
         altura = int(input("Ingresa el valor de la altura: "))
-        area = (base * altura) / 2
-        return area
+        return (base * altura) / 2
         
     if userChoosen == "2":
         print(f"Your selection was Square")
         print("Area = Lado por lado")
         
         lado1 = int(input("Ingresa el valor de un lado: "))
-        area = lado1 * lado1
-        return area
+        return lado1 * lado1
         
     if userChoosen == "3":  
         print(f"Your selection was Rectangle")
@@ -33,8 +31,7 @@ def areaPolygon():
         
         largo = int(input("Ingresa el valor de lo largo: "))
         ancho = int(input("Ingresa el valor de lo ancho: "))
-        area = largo * ancho
-        return area
+        return largo * ancho
 #function call
 finalArea = areaPolygon()
 print(f"El area del polígono seleccionado es {finalArea}")
