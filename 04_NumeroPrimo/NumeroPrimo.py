@@ -13,9 +13,14 @@ def even_number_check(number):
     else: print(f"The number {number} isn't even")
 
 def even_number_oneToOneHundred():
-    pass
+    for x in range(1,101):
+        if x % 2 == 0:
+            print(f"{x} is even")
+        else: print(f"{x}")
+        
     
 
 #Function call
 number = req_number()
 even_number_check(number)
+even_number_oneToOneHundred()
