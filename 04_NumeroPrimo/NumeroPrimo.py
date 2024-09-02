@@ -18,8 +18,6 @@ def even_number_oneToOneHundred():
             print(f"{x} is even")
         else: print(f"{x}")
         
-    
-
 #Function call
 number = req_number()
 even_number_check(number)
